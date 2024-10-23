@@ -1,0 +1,8 @@
+type PriceData = record {
+    price : float64;
+};
+
+service : {
+    find_best_price: (text, text) -> (float64) query;
+    greet: () -> (text) query;
+}
